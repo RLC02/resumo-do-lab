@@ -25,3 +25,16 @@
 - Conectar via String de Conexão fornecida no Azure Portal.
 - Implementar SSL/TLS para conexões seguras.
 
+# 📌 Construindo Arquiteturas no Azure
+
+# Criação de um Grupo de Recursos e Implementação de uma VNet no Azure
+
+- No portal do Azure, vá para "Grupos de Recursos" e clique em "Criar".
+Escolha uma assinatura, defina um nome e selecione uma região.
+Confirme e crie o grupo de recursos.
+
+- No portal do Azure, acesse "Virtual Networks" e clique em "Criar".
+Escolha o grupo de recursos recém-criado.
+Defina um nome para a VNet e escolha uma região compatível.
+
+- Revise as configurações e clique em "Criar" para provisionar a VNet.
