@@ -38,3 +38,30 @@ Escolha o grupo de recursos recém-criado.
 Defina um nome para a VNet e escolha uma região compatível.
 
 - Revise as configurações e clique em "Criar" para provisionar a VNet.
+
+# 📌 Configurando Recursos e Dimensionamento em Máquinas Virtuais no Azure
+
+# Criação da Máquina Virtual (VM)
+No portal do Azure, vá para "Máquinas Virtuais" e clique em "Criar".
+Escolha um grupo de recursos e defina um nome para a VM.
+Selecione uma região e um sistema operacional (Windows/Linux).
+Escolha do Tamanho (Dimensionamento)
+
+- Escolha um tamanho da VM com base na necessidade de CPU, RAM e desempenho.
+O Azure recomenda tamanhos conforme a carga de trabalho (Ex: B-series para testes, D-series para produção).
+Se necessário, altere o dimensionamento posteriormente no menu "Tamanho" da VM.
+Configuração de Rede
+
+- Selecione ou crie uma VNet e uma subnet para a VM.
+Configure um IP público (se necessário) e defina NSG (Network Security Group) para regras de firewall.
+Armazenamento e Discos
+
+- Escolha o tipo de disco (SSD Premium, SSD Padrão, HDD).
+Adicione discos adicionais conforme a necessidade de armazenamento.
+Configuração de Autoescala (Opcional)
+
+- Configure escalabilidade automática criando um conjunto de dimensionamento de VMs.
+Defina regras para adicionar ou remover instâncias com base em métricas como CPU e memória.
+Revisão e Implantação
+
+- Revise todas as configurações e clique em "Criar" para provisionar a VM.
